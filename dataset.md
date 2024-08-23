@@ -87,15 +87,87 @@ None
 
 ## followers
 
+### Description
+Aggregated representation of the social graph.
+Contains one row per follower/followed pair with the last timestamps of addition and removal.
+
+### Paritioning
+None
+
+### Clustering
+fid_followed/fid_follower
+
+### Columns
+
+|Column|Type|Description|
+|---|---|---|
+|fid_follower|INTEGER|Follower User ID|
+|fid_followed|INTEGER|Followed User ID|
+|added_at|TIMESTAMP|Followed at latest timestamp|
+|removed_at|TIMESTAMP|Unfollowed at latest timestamp|
+
 
 
 ## reactions
+
+### Description
+Another interesting representation of the social graph.
+Contains one row per source/target user pair with the total number of replies, likes, and recasts.
+
+### Paritioning
+None
+
+### Clustering
+fid/target_fid
+
+### Columns
+
+|Column|Type|Description|
+|---|---|---|
+|fid|INTEGER|Source User ID|
+|target_fid|INTEGER|Target User ID|
+|num_replies|INTEGER|Number of replies|
+|num_likes|INTEGER|Number of likes|
+|num_recasts|INTEGER|Number of recasts|
 
 
 
 ## fid_username
 
+### Description
+Maps fids to usernames, and adds a couple of stats about the user: first/last cast timestamp and number of casts.
+
+### Paritioning
+None
+
+### Clustering
+fid
+
+### Columns
+
+|Column|Type|Description|
+|---|---|---|
+|fid|INTEGER|User ID|
+|first_cast|TIMESTAMP|First cast timestamp|
+|last_cast|TIMESTAMP|Last cast timestamp|
+|num_casts|INTEGER|Number of casts|
+|user_name|STRING|Username|
 
 
 ## username_fid
 
+### Description
+Since Big Query does not support multipe index per table, this is just another table to map from username to fid without the need to do a full scan of fid_username table.
+
+### Paritioning
+None
+
+### Clustering
+user_name
+
+### Columns
+
+|Column|Type|Description|
+|---|---|---|
+|user_name|STRING|Username|
+|fid|INTEGER|User ID|
