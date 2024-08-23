@@ -62,12 +62,16 @@ You can send requests like these by simply tagging @dsart and will get a reply:
 * Who is most active in /data channel
 * Give me a bitcoin summary
 * Show me the funniest cast in tabletop channel
-And more functions are coming, I am thinking some fun stuff like:
+
+I am excited to add more functions too, I am thinking some fun stuff like:
 * What does @vitalik.eth post about?
 * What does @v like, reply or recast? 
 * What are my favorite topics? 
 * Psychoanalyze user @ted
 * Roast me!
+
+I open sourced the [repo](https://github.com/randombishop/fc_bots) and hope the community will propose and contribute more functions too!
+
 
 ## The Web App
 [https://www.datascience.art/](https://www.datascience.art/)
