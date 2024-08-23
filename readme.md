@@ -23,8 +23,11 @@ If you want to know exactly how the data is preprocessed, you can check out the 
 
 ## Big Query Dataset
 The Big Query dataset provides a data perspective that is different from what you can find in Dune dashboards. 
+
 For example. rather than having all the links events, it has a single table that represents the social graph with one row per follower/followed.
+
 It also has a table with one aggregated row per user_origin/user_target with the total count of likes, replies and recasts.
+
 Finally, in the casts table, you will find embeddings, usefull for ML tasks, category and topic classification, plus interesting features coming from the Gambit model and Likemeter. (more on these on the sections below.)
 
 The dataset description is available [here](dataset.md)
