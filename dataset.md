@@ -16,10 +16,10 @@ This dataset can be queried directly from the [web app](https://app.datascience.
 Contains cast data since June, 1st 2024, enriched with categories, topics, embeddings, and ML features.
 
 ### Paritioning
-day column
+By *day*
 
 ### Clustering
-None
+By *fid*
 
 ### Columns
 
