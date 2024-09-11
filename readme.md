@@ -77,4 +77,11 @@ I open sourced the [repo](https://github.com/randombishop/fc_bots) and hope the 
 
 
 ## The Web App
-[https://www.datascience.art/](https://www.datascience.art/)
+
+The front end is a React app to explore the data and gain insights.
+
+* The source code lives in this [repo](https://github.com/randombishop/fc_front)
+
+* A replit is also available [here](https://replit.com/@nabilabdellaoui/fcfront)
+
+* Check it out live at [app.datascience.art](https://app.datascience.art/)
