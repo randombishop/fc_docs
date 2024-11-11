@@ -26,7 +26,7 @@ The Dune tables, materialized views and queries are all published publicly: [sea
 
 The DSArt Dune dataset provides a unique and ML friendly data perspective. 
 
-For example, it provides a single table that represents the social graph with one row per follower/followed, including the follow relationshop andthe total count of likes, replies and recasts.
+For example, it provides a single table that represents the social graph with one row per follower/followed, including the follow relationshop and the total count of likes, replies and recasts.
 
 Also, in the [casts_features table](./casts_features.md), you will find embeddings, usefull for ML tasks, category and topic classification, plus interesting features coming from the Gambit model and Likemeter. (more on these on the sections below.)
 
