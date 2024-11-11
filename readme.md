@@ -76,7 +76,7 @@ The following type of requests are currently supported:
 * Responds in natural language. Uses a LLM to generate an answer.
 
 The bot code and prompts are open sourced in the [fc_bots repository](https://github.com/randombishop/fc_bots), it is designed to be easily extensible 
-and only rely on public Dune data, so everyone can develop, test and contribute new functions.
+and only rely on public Dune data, so that anyone can develop, test and contribute new functions.
 
 
 ## The Web App
