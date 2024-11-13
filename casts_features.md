@@ -50,6 +50,6 @@ Contains cast data since November, 1st 2024, enriched with categories, topics, e
 |q_call_action|INTEGER|Does it come with an explicit call to action? (from 0 to 100)
 |c_xxx|INTEGER|c_columns indicate how likely the cast is to be in that category. (from 0 to 100)
 |t_xxx|INTEGER|t_columns indicate how likely the cast is to be in that topic. (from 0 to 100)
-|dim_1 to dim_32|FLOAT|Reduced embedding dimensions. These were calculated such that, when combined with the q_, c_ and t_ features, will conserve as much information from the 512 embedding as possible.
+|dim_1 to dim_32|FLOAT|Reduced embedding dimensions. These were calculated such that, when combined with the q_, c_ and t_ features, will conserve 50% variance from the original 512 dimensions embedding.
 |predict_like|INTEGER|Output of the Likemeter model (0 to 100).
 |language|STRING|Autodetected language from the text.
