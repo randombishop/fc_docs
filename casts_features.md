@@ -1,6 +1,6 @@
 # Casts Features
 
-Contains cast data since November, 1st 2024, enriched with categories, topics, embeddings, and ML features.
+Contains cast data since November, 1st 2024, enriched with categories, topics, embeddings, ML features and language.
 
 [Dune link](https://dune.com/queries/4280808)
 
@@ -13,7 +13,6 @@ Contains cast data since November, 1st 2024, enriched with categories, topics, e
 |hash|STRING|Cast hash.|
 |fid|INTEGER|Author fid.|
 |user_name|STRING|Author username at time of cast.|
-|user_pfp|STRING|Profile picture URL.|
 |num_follower|INTEGER|Author's number of followers at time of cast.|
 |num_follower_bin|num_follower bin from 0 to 9, based on the same hour distribution.|
 |num_following|INTEGER|Author's number of followed accounts at time of cast.|
@@ -53,4 +52,4 @@ Contains cast data since November, 1st 2024, enriched with categories, topics, e
 |t_xxx|INTEGER|t_columns indicate how likely the cast is to be in that topic. (from 0 to 100)
 |dim_1 to dim_32|FLOAT|Reduced embedding dimensions. These were calculated such that, when combined with the q_, c_ and t_ features, will conserve as much information from the 512 embedding as possible.
 |predict_like|INTEGER|Output of the Likemeter model (0 to 100).
-
+|language|STRING|Autodetected language from the text.
