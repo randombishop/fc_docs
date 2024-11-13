@@ -14,9 +14,9 @@ Contains cast data since November, 1st 2024, enriched with categories, topics, e
 |fid|INTEGER|Author fid.|
 |user_name|STRING|Author username at time of cast.|
 |num_follower|INTEGER|Author's number of followers at time of cast.|
-|num_follower_bin|num_follower bin from 0 to 9, based on the same hour distribution.|
+|num_follower_bin|INTEGER|num_follower bin from 0 to 9, based on the same hour distribution.|
 |num_following|INTEGER|Author's number of followed accounts at time of cast.|
-|num_following_bin|num_following bin from 0 to 9, based on the same hour distribution.|
+|num_following_bin|INTEGER|num_following bin from 0 to 9, based on the same hour distribution.|
 |num_casts_same_hour|INTEGER|Number of times the user casted in the same hour.|
 |text|STRING|Cast text.|
 |text_len|INTEGER|Cast text length.|
