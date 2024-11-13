@@ -2,6 +2,8 @@
 
 Aggregates data about every user for the last 30 days. Unless otherwise specified, all column descriptions are based on the last 30 days.
 
+[Dune link](https://dune.com/queries/4232751)
+
 *Updated every 24 hours*
 
 |Column|Type|Description|

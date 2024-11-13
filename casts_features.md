@@ -2,6 +2,8 @@
 
 Contains cast data since November, 1st 2024, enriched with categories, topics, embeddings, and ML features.
 
+[Dune link](https://dune.com/queries/4280808)
+
 *Updated every 2 hours, lagging 2 to 3 hours behind real time data.*
 
 |Column|Type|Description|
